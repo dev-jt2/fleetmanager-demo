@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: myf-config
+  namespace: myns
+  labels:
+    app.kubernetes.io/name: myf
+    kubernetes.azure.com/generator: devhub
+data:
